@@ -1,0 +1,148 @@
+/* this is where all of your CSS styles go */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.grid_container {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.mono {
+	font-family: 'Fjalla One';
+	font-size: 2em;
+	float: left;
+	margin-left: 5px;
+}
+
+
+/* Animation Keyframes */
+
+@keyframes n_fade {
+	0% { opacity:0 }
+	100% { opacity:1 }
+}
+
+.n {
+	opacity: 0;
+	animation: n_fade infinite 8s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes o_fade {
+	0% { opacity:0 }
+	100% { opacity:1 }
+}
+
+.o {
+	opacity: 0;
+	animation: o_fade infinite 8s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes square_fade {
+	0% { opacity:0 }
+	100% { opacity:1 }
+}
+
+.square {
+	width: 300px;
+	height: 100px;
+	background: gray;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -147px;
+	margin-top: -55px;
+	animation: square_fade 8s infinite;
+}
+
+@keyframes w_move {
+	0%,100% { top: 0px }
+	50% { top: -60px }
+
+}
+
+.w {
+	position: relative;
+	animation: w_move infinite 8s;
+}
+
+@keyframes h_move {
+	0%,100% { top: 0px }
+	50% { top: -60px }
+
+}
+
+.h {
+	position: relative;
+	animation: h_move infinite 8s;
+}
+
+@keyframes e_move {
+	0%,100% { top: 0px }
+	50% { top: -60px }
+
+}
+
+.e {
+	position: relative;
+	animation: e_move infinite 8s;
+}
+
+@keyframes r_move {
+	0%,100% { top: 0px }
+	50% { top: -60px }
+
+}
+
+.r {
+	position: relative;
+	animation: r_move infinite 8s;
+}
+
+@keyframes e_move {
+	0%,100% { top: 0px }
+	50% { top: -60px }
+
+}
+
+.e {
+	position: relative;
+	animation: e_move infinite 8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
